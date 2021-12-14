@@ -51,7 +51,7 @@ public class IndexController {
         query = "SELECT * FROM Books WHERE read = ?";
         parameters.add(read.toString());
       } else {
-        // All books
+        // All books 
         query = "SELECT * FROM Books";
       }
 
